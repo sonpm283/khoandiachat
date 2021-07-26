@@ -13,15 +13,27 @@
 }
 
 @media screen and (max-width: 1199px) {
-
+	.about-item {
+		width: calc(25% - 90px);
+		margin-bottom: 30px;
+	}
 }
 
 @media screen and (max-width: 991px) {
-
+	.about-item {
+		width: calc(33% - 90px);
+	}
 }
 
 @media screen and (max-width: 767px) {
-	
+	.about-wrap {
+		margin-left: -50px;
+		align-items: stretch !important;
+	}
+	.about-item {
+		margin-left: 50px;
+		width: calc(50% - 50px);
+	}
 }
 
 @media screen and (max-width: 480px) {

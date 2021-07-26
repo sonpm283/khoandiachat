@@ -1,37 +1,24 @@
 $(document).ready(function () {
-
-  
   backTop.init()
+  bannerSlider.init()
 });
 
 
-const categorySlide = {
+const bannerSlider = {
   init: function () {
-    this.categorySlide();
+    this.bannerSlider();
   },
-  categorySlide: function () {
-    $(".category__slide-wrap").owlCarousel({
-      items: 4,
+  bannerSlider: function () {
+    $("#banner-slide").owlCarousel({
+      items: 1,
       dots: false,
-      loop: false,
+      loop: true,
       nav: false,
       autoplay: true,
-      margin: 20,
-      slideTransition: 'linear',
       autoplayTimeout: 5000,
-      autoplaySpeed: 800,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        600: {
-          items: 2,
-        },
-        1000: {
-          items: 4,
-        },
-      },
+      autoplaySpeed: 1000,
     });
+    $("#banner-slide").trigger("refresh.owl.carousel");
   },
 };
 
