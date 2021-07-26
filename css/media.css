@@ -23,6 +23,9 @@
 	.about-item {
 		width: calc(33% - 90px);
 	}
+	.ads-box-left {
+		margin-bottom: 30px;
+	}	
 }
 
 @media screen and (max-width: 767px) {
@@ -33,6 +36,9 @@
 	.about-item {
 		margin-left: 50px;
 		width: calc(50% - 50px);
+	}
+	.box-custom-shadow:before, .box-custom-shadow:after {
+		box-shadow: unset;
 	}
 }
 
