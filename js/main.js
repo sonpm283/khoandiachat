@@ -1,6 +1,7 @@
 $(document).ready(function () {
   backTop.init()
   bannerSlider.init()
+  menuMobile.init()
 });
 
 
@@ -38,3 +39,27 @@ const backTop = {
   }
 }
 
+// menu mobile 
+const menuMobile = {
+  init: function() {
+      this.menuMobile()
+  },
+  menuMobile: function() {
+      const menuBtn = $(".js-menu-btn")
+      const menuMobile = $(".menumobile")
+      const menuOverlay = $(".menumobile-overlay")
+
+      menuBtn.click(function() {
+          menuMobile.addClass("active")
+      })
+
+      menuOverlay.click(function() {
+          menuMobile.removeClass("active")
+      })
+  }
+}
+
+$(".js-search-form").click(function() {
+  console.log("hi")
+  $(".top-bar-form").toggleClass("active")
+})

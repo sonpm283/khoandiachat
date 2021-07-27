@@ -22,7 +22,7 @@
 			<!-- Top bar -->
 			<div class="top-bar d-md-block d-none">
 				<ul class="top-bar-list d-flex align-items-center justify-content-end">
-					<li>
+					<li class="js-search-form">
 						<i class="fa fa-search"></i>
 					</li>
 					<li class="d-flex">
@@ -42,6 +42,13 @@
 					</li>
 				</ul>
 			</div>
+			<!-- Search Form -->
+			<form action="" class="top-bar-form">
+				<div class="form-gr d-flex">
+					<input class="top-bar-input" type="text" placeholder="Tìm kiếm...">
+					<button class="top-bar-form-btn" type="submit"><i class="fa fa-search"></i></button>
+				</div>
+			</form>	
 			<!-- Navigation -->
 			<nav class="nav d-flex align-items-center justify-content-between">
 				<a href="" class="logo"><img src="img/logo.png" alt="logo"></a>
@@ -66,13 +73,39 @@
 						<a href="" class="menu-link">Liên hệ</a>
 					</li>
 				</ul>
-				<div class="nav-bars d-xl-none">
+				<div class="nav-bars d-xl-none js-menu-btn">
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</div>
 			</nav>
 		</div>
 	</header>
 	<!-- End Header -->
+	<!-- Menu mobile -->
+	<div class="menumobile">
+		<div class="menumobile-overlay"></div>
+		<ul class="menumobile-list">
+		  <li>
+			<a href="#">Giới thiệu</a>
+		  </li>
+  
+		  <li>
+			<a href="#">Khảo sát địa chất</a>
+		  </li>
+		  <li>
+			<a href="#">Khoan nhồi cọc</a>
+		  </li>
+		  <li>
+			<a href="#">Quan chắc địa kỹ thuật</a>
+		  </li>
+		  <li>
+			<a href="#">Dự án</a>
+		  </li>
+		  <li>
+			<a href="#">Liên hệ</a>
+		  </li>
+		</ul>
+	  </div>
+	<!-- End Menu mobile -->
 	<!-- Banner -->
 	<section class="banner">
 		<div class="banner-slide owl-carousel" id="banner-slide">
