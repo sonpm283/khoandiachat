@@ -17,6 +17,10 @@
 		width: calc(25% - 90px);
 		margin-bottom: 30px;
 	}
+	.footer {
+		background: #175c43;
+		padding-top: 25px;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -26,6 +30,12 @@
 	.ads-box-left {
 		margin-bottom: 30px;
 	}	
+	.footer-title {
+		margin-bottom: 15px;
+	}
+	.footer-item {
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -43,6 +53,30 @@
 }
 
 @media screen and (max-width: 480px) {
+	.page-heading-title {
+		font-size: 20px;
+	}
+
+	.contact-btn, .ads-btn {
+		font-size: 16px;
+	}
+	
+	.box-custom-shadow {
+		margin-top: 20px;
+	}
+
+	.contact-btn span,
+	.ads-btn span {
+		font-size: 22px;
+	}
+
+	.ads-titles {
+		font-size: 18px;
+	}
+
+	.ads-btn {
+		margin-top: 20px;
+	}
 	
 	
 }

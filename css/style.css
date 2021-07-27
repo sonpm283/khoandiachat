@@ -104,11 +104,11 @@ img {
 .back-top {
   position: fixed;
   right: 20px;
-  bottom: 50px;
+  bottom: 20px;
   opacity: 0;
   visibility: hidden;
   transition: all 0.2s ease-in-out;
-  background: var(--main-color);
+  background: #0d5b39;
   color: var(--white-color);
   width: 50px;
   height: 50px;
@@ -266,6 +266,7 @@ img {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family: var(--roboto-bold);
+	text-align: center;
 }
 
 .contact-btn span,
@@ -421,8 +422,109 @@ img {
 	font-size: 14px;
 }
 
-
 .ads-contents p {
 	color: var(--white-color);
 	margin-top: 10px;
+	line-height: 20px;
+}
+
+.footer {
+	background: url(/img/footer-img.jpg) no-repeat center/cover;
+	height: 100%;
+	width: 100%;
+	padding-top: 135px;
+}
+
+.footer-title,
+.footer-title-social {
+	font-size: 18px;
+	color: var(--white-color);
+	font-family: var(--roboto-bold);
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.footer-title-social {
+	font-size: 13px;
+}
+
+.footer-item-title {
+	font-size: 14px;
+	font-family: var(--roboto-bold);
+	color: var(--white-color);
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.footer-item p {
+	font-size: 14px;
+	color: var(--white-color);
+	line-height: 24px;
+	
+}
+
+.footer-item li {
+	margin-bottom: 10px;
+}
+
+.footer-item li a {
+	display: flex;
+	align-items: center;
+}
+
+.footer-item li a span {
+	margin-left: 15px;
+	font-size: 13px;
+	color: var(--white-color);
+}
+
+.footer-contact {
+	color: var(--white-color);
+}
+
+.footer-contact p {
+	margin-left: 8px;
+}
+
+
+.footer-contact p span {
+	padding: 0 5px;
+	position: relative;
+}
+
+.footer-contact p span:not(:last-child)::after {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 10px;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background: var(--white-color);
+}
+
+.footer-mail,
+.footer-web {
+	color: var(--white-color);
+}
+
+.footer-mail i,
+.footer-web i {
+	margin-right: 5px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.copyright {
+	padding: 10px 0;
+	background: #083924;
+}
+
+.copyright p {
+	color: var(--white-color);
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 1.3;
 }
