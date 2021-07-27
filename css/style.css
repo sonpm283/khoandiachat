@@ -340,10 +340,19 @@ img {
 	margin-bottom: 45px;
 }
 
+.box-content-img {
+	overflow: hidden;
+}
+
 .box-content-img img{
 	 height: 250px;
 	 width: 100%;
 	 object-fit: cover;
+	 transition: all .3s ease-in-out;
+}
+
+.box-content-img:hover img{ 
+	transform: scale(1.1);
 }
 
 .box-content-title,

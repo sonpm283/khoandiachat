@@ -21,6 +21,19 @@
 		background: #175c43;
 		padding-top: 25px;
 	}
+	.top-bar-form {
+		position: static;
+		opacity: 1;
+		transform: unset;
+		visibility: visible;
+		margin-top: 20px;
+	}
+	.top-bar-input {
+		width: 100%;
+	}
+	.top-bar-form-btn {
+		width: 50px;
+	}
 }
 
 @media screen and (max-width: 991px) {
