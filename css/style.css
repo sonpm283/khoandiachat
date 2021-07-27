@@ -482,7 +482,7 @@ img {
 }
 
 .footer {
-	background: url(/img/footer-img.jpg) no-repeat center/cover;
+	background: url(../img/footer-img.jpg) no-repeat center/cover;
 	height: 100%;
 	width: 100%;
 	padding-top: 135px;
